@@ -1,0 +1,10 @@
+﻿version: '3.8'
+services:
+  api:
+    build: ./api
+    ports:
+      - '4000:4000'
+  client:
+    build: ./client
+    ports:
+      - '3000:80'

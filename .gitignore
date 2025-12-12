@@ -1,0 +1,13 @@
+﻿# Ignore node_modules, build artifacts, env files
+node_modules/
+dist/
+.env
+.env.local
+.vscode/
+__pycache__/
+*.pyc
+target/
+.DS_Store
+/build
+coverage/
+*.log
